@@ -63,5 +63,4 @@ That step will download available Themes
 ## Change the Profile
 - Download *Microsoft.PowerShell_profile.ps1* from Repository
 - Copy file to that path: C:\Users\<username>\Documents\PowerShell\Microsoft.Powerhsell_profile.ps1 and overwrite the extisting (if any)
-
-
+- Open profile file and adjust the path to the theme according to your theme file location  
