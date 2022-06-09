@@ -19,16 +19,15 @@ Sitecore branded Windows Termial and VS Code Theme and Profile to unlock helpful
 
 ## Install Oh My Posh
 
-- In Terminal run: 
-  Install-Module posh-git -Scope CurrentUser
-- Confirm that you trust the repository with "a"
+- In Terminal run: `Install-Module posh-git -Scope CurrentUser`
+- Confirm that you trust the repository with  `a`
 
-- Run: Install-Module oh-my-posh -Scope CurrentUser
-- Confirm that you trust the repository with "a"
+- Run: `Install-Module oh-my-posh -Scope CurrentUser`
+- Confirm that you trust the repository with `a`
 
-- Run: Install-Module -Name PSReadLine -AllowPrerelease -Force
+- Run: `Install-Module -Name PSReadLine -AllowPrerelease -Force`
 
-- Run: Install-Module -Name Terminal-Icons -Repository PSGallery
+- Run: `Install-Module -Name Terminal-Icons -Repository PSGallery`
 
 ### Test Oh My Posh
 
@@ -50,21 +49,19 @@ Sitecore branded Windows Termial and VS Code Theme and Profile to unlock helpful
 ## Get available Posh Themes (optional)
 That step will download available Themes
 
-- In Terminal run:
-  Get-PoshThemes
+- In Terminal run: `Get-PoshThemes`
 
 ## Switch Theme (optional)
-- In Terminal run: 
-  Set-PoshPrompt -Theme free-ukraine
+- In Terminal run: `Set-PoshPrompt -Theme free-ukraine`
 
 # Use Sitecore branded theme and profile
 
 ## Change the Theme 
-- Download sitecore.omp.json
+- Download *sitecore.omp.json*
 - Copy file to that path: C:\Users\<username>\AppData\Local\oh-my-posh\themes\
 
 ## Change the Profile
-- Download "Microsoft.PowerShell_profile.ps1" from Repository
+- Download *Microsoft.PowerShell_profile.ps1* from Repository
 - Copy file to that path: C:\Users\<username>\Documents\PowerShell\Microsoft.Powerhsell_profile.ps1 and overwrite the extisting (if any)
 
 
