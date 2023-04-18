@@ -31,17 +31,17 @@ Sitecore branded Windows Termial and VS Code Theme and Profile to unlock helpful
 
 ### Test Oh My Posh
 
-- In Terminal run: Set-PoshPrompt
+- In Terminal run: Set-PoshPrompt (Note : You will see message with migration guide, please ignore that and keep following the next steps)
 
 ## Install Nerd Fonts
 - Go to Nerdfonts.com and
-- Download Caskaydia Cove Nerd Font
-- Install Fonts in zip file
+- Download Caskaydia Cove Nerd Font (Reserved Font Name: Cascadia Code) - Direct link : https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/CascadiaCode.zip
+- Install Fonts in zip file (Note : To install fants, drang and drop all font files to c:\Windows\Fonts folder)
 
 - In Windows Terminal
 - Go to Settings
 - Go To Appearance
-- Select Font face "CaskaydiaCove NF"
+- Select Font face "CaskaydiaCove NF" (Note: You can also select from Profiles | Powershell | Font Face "CaskaydiaCove NFM")
 
 ### Test
 - In Terminal glyphs should be shown now
@@ -58,9 +58,7 @@ That step will download available Themes
 
 ## Change the Theme 
 - Download *sitecore.omp.json*
-- Copy file to that path: C:\Users\<username>\AppData\Local\oh-my-posh\themes\
+- Copy file to that path: C:\Users\<username>\AppData\Local\oh-my-posh\themes\ (Note : If themes folder doesn't exist, you can create it manually)
 
 ## Change the Profile
-- Download *Microsoft.PowerShell_profile.ps1* from Repository
-- Copy file to that path: C:\Users\<username>\Documents\PowerShell\Microsoft.Powerhsell_profile.ps1 and overwrite the extisting (if any)
-- Open profile file and adjust the path to the theme according to your theme file location  
+- In Terminal run : `oh-my-posh init pwsh --config 'C:\Users\<username>\AppData\Local\oh-my-posh\themes\sitecore.omp.json' | Invoke-Expression`
