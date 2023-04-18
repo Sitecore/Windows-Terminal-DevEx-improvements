@@ -61,4 +61,6 @@ That step will download available Themes
 - Copy file to that path: C:\Users\<username>\AppData\Local\oh-my-posh\themes\ (Note : If themes folder doesn't exist, you can create it manually)
 
 ## Change the Profile
-- In Terminal run : `oh-my-posh init pwsh --config 'C:\Users\<username>\AppData\Local\oh-my-posh\themes\sitecore.omp.json' | Invoke-Expression`
+- Download *Microsoft.PowerShell_profile.ps1* from Repository
+- Copy file to that path: C:\Users\<username>\Documents\PowerShell\Microsoft.Powerhsell_profile.ps1 and overwrite the extisting (if any)
+- Open profile file and adjust the path to the theme according to your theme file location
