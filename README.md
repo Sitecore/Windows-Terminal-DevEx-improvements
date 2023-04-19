@@ -37,7 +37,7 @@ As I do not have winget installed
 
 ### Test Oh My Posh
 
-- In Terminal run: Set-PoshPrompt (Note : You will see message with migration guide, please ignore that and keep following the next steps)
+- In Terminal run: `Set-PoshPrompt` (Note : You will see message with migration guide, please ignore that and keep following the next steps)
 
 ## Install Nerd Fonts
 - Go to Nerdfonts.com and
@@ -73,9 +73,7 @@ That step will download available Themes
 # Troubleshooting
 
 1. Check env variables
-The profile file is relying on the env variable **POSH_THEMES_PATH**. This one should have been provided and filled during the installation process. The theme path should point to: C:\Users\<username>\AppData\Programs\oh-my-posh\themes
-
-If it still does not find your theme path you can change the Microsoft.PowerShell_profile.ps1 file and use the absolute path in line 7. That should be C:\Users\<username>\AppData\Local\Programs\oh-my-posh\themes
+The profile file is relying on the env variable **POSH_THEMES_PATH**. This one should have been provided and filled during the installation process. The theme path should point to: C:\Users\<username>\AppData\Programs\oh-my-posh\themes. If it still does not find your theme path you can change the Microsoft.PowerShell_profile.ps1 file and use the absolute path in line 7. That should be C:\Users\<username>\AppData\Local\Programs\oh-my-posh\themes
 
 2. Restart terminal
 especially when env variable changes are made, you need to restart the terminal application.
