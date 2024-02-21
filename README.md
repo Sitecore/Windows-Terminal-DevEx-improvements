@@ -46,8 +46,9 @@ As I do not have winget installed
 
 - In Windows Terminal
 - Go to Settings
+- Select PowerShell Profile from the list (on the left side)
 - Go To Appearance
-- Select Font face "CaskaydiaCove NF" (Note: You can also select from Profiles | Powershell | Font Face "CaskaydiaCove NFM")
+- Select Font face "CaskaydiaCove NFM" (Note: You can also select from Profiles | Powershell | Font Face "CaskaydiaCove NFM")
 
 ### Test
 - In Terminal glyphs should be shown now
