@@ -1,7 +1,7 @@
 Import-Module -Name Terminal-Icons
 #Set-PoshPrompt -Theme free-ukraine
 # Adjust path to profile according to your theme file location
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/sitecore.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "~/AppData/Local/Programs/oh-my-posh/themes/sitecore.omp.json" | Invoke-Expression
 
 # Add PSReadLine
 # https://github.com/PowerShell/PSReadLine
